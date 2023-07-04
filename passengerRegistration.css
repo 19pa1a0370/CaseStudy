@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+    justify-content: center;
+}
+body{
+    background-image: linear-gradient(to right, rgb(146, 245, 170),white);
+}
+header{
+    margin-top: 15px;
+    margin-left:520px;
+    color:blue
+}
+input{
+    margin-top:5px;
+    margin-bottom: 20px;
+    height:25px;
+    width:250px;
+    border-radius: 5px;
+    border:1px solid;
+}
+label{
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+button{
+    margin-left: 550px;
+    width:250px;
+    height:40px;
+    border-radius: 20px;
+    border:1px solid;
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+#address{
+    height:70px;
+}
+star{
+    color:red;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}

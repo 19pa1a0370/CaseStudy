@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(to right,rgb(125, 218, 241),rgb(245, 245, 244));
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+button{
+    width:250px;
+    height: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgb(253, 246, 252), rgb(68, 68, 70));
+    font-weight:bold;
+    font-size:1.15rem;
+    color:white;
+}
+h2{
+    color:red;
+}
+#login{
+    margin-top:200px;
+    margin-bottom:30px;
+}
+button:hover{
+    background-image: linear-gradient(to right, rgb(183, 183, 245),rgb(248, 184, 232));
+    /* background-color: black; */
+}
